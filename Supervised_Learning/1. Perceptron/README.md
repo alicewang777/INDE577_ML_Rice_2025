@@ -1,8 +1,12 @@
 # Perceptron Model: Predicting High-Fare Uber Rides
 
-## 🔍 a. Algorithm Description
+## a. Algorithm Description
 
 ![Perceptron_1](https://github.com/user-attachments/assets/f9c99053-72e0-4b0b-8d7c-6239ccd9f0ef)
+
+*Image source: neurallearner (2017), Deep Learning: An Extension of the Perceptron, Steemit. https://steemit.com/technology/@neurallearner/deep-learning-an-extension-of-the-perceptron
+
+
 ![Perceptron_2](https://github.com/user-attachments/assets/ba108c45-5f81-4f35-8985-30d219928526)
 
 This module implements the **Perceptron algorithm**, a classic linear classifier for binary classification tasks. The model was implemented from scratch as part of the custom package `rice_ml`, which includes reusable components for training and evaluating machine learning models.
@@ -12,7 +16,7 @@ Key features:
 - Custom evaluation metrics (e.g., accuracy)
 - Feature weight interpretation for model explainability
 
-## 📊 b. Dataset Summary
+## b. Dataset Summary
 
 The model is trained and tested on a sample of the **NYC Uber trip dataset**, which includes:
 
@@ -28,7 +32,7 @@ The binary classification task is to predict whether a ride is **high-fare** (`f
 - Weekend indicator
 - Interaction term: `hour_exact × passenger_count`
 
-## 🧪 c. Instructions to Reproduce
+## c. Instructions to Reproduce
 
 1. **Clone the project and set up package path** in your Colab or local environment:
 
@@ -63,3 +67,7 @@ y_pred = model.predict(X_test)
 ---
 
 For full implementation, see the Jupyter notebook in this directory.
+
+**Reference:**
+
+Neurallearner. (2017, October 25). Deep learning: An extension of the perceptron. Steemit. https://steemit.com/technology/@neurallearner/deep-learning-an-extension-of-the-perceptron
