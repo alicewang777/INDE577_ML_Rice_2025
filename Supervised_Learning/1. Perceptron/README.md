@@ -3,7 +3,9 @@
 ## a. Algorithm Description
 
 ![Perceptron_1](https://github.com/user-attachments/assets/f9c99053-72e0-4b0b-8d7c-6239ccd9f0ef)
+
 Image source: neurallearner (2017), Deep Learning: An Extension of the Perceptron, Steemit. https://steemit.com/technology/@neurallearner/deep-learning-an-extension-of-the-perceptron
+
 ![Perceptron_2](https://github.com/user-attachments/assets/ba108c45-5f81-4f35-8985-30d219928526)
 
 This module implements the **Perceptron algorithm**, a classic linear classifier for binary classification tasks. The model was implemented from scratch as part of the custom package `rice_ml`, which includes reusable components for training and evaluating machine learning models.
@@ -66,4 +68,5 @@ y_pred = model.predict(X_test)
 For full implementation, see the Jupyter notebook in this directory.
 
 **Reference:**
+
 Neurallearner. (2017, October 25). Deep learning: An extension of the perceptron. Steemit. https://steemit.com/technology/@neurallearner/deep-learning-an-extension-of-the-perceptron
