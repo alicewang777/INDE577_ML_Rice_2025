@@ -15,10 +15,10 @@ class AdaBoost:
 
         for _ in range(self.n_estimators):
             stump = DecisionTree(max_depth=1)
-            stump.fit(X, y)  # 传入原始 0/1 标签
+            stump.fit(X, y)  
 
             y_pred = stump.predict(X)
-            y_pred = np.array(y_pred).astype(int)  # ✅ 保证是 numpy int 类型
+            y_pred = np.array(y_pred).astype(int)  
             y_pred_mapped = np.where(y_pred == 0, -1, 1)
 
             error = np.sum(weights[y_pred_mapped != y_mapped])
