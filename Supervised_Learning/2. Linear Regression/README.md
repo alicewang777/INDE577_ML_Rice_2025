@@ -27,7 +27,7 @@ Outliers with `fare_amount >= 100` were removed, and a random sample of 5,000 ri
 
 ---
 
-## ▶️ How to Reproduce
+## How to Reproduce
 
 1. Clone the GitHub repo:
    ```bash
