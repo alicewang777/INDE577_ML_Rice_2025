@@ -8,7 +8,7 @@ This directory implements **Principal Component Analysis (PCA)** using a custom-
 
 The above image illustrates how PCA works: high-dimensional data (left panel) is projected onto a new coordinate system (right panel) defined by the directions of maximum variance (principal components). Each axis in the component space captures a linear combination of the original features, simplifying the analysis of patterns and clustering.
 
-In this project, we applied PCA to the **Uber Pickup Dataset** to uncover underlying patterns in passenger ride behavior across different times, locations, and distances.
+In this project, I applied PCA to the **Uber Pickup Dataset** to uncover underlying patterns in passenger ride behavior across different times, locations, and distances.
 
 ---
 
