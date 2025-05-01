@@ -14,19 +14,19 @@ In this project, I applied PCA to the **Uber Pickup Dataset** to uncover underly
 
 ## Dataset Summary
 
-We use a cleaned and preprocessed subset of the **Uber Pickup Data**, containing information on 5000 randomly sampled rides. Key features engineered include:
+I use a cleaned and preprocessed subset of the **Uber Pickup Data**, containing information on 5000 randomly sampled rides. Key features engineered include:
 
 - **Time features**: hour, minute, weekday/weekend
 - **Trip features**: pickup/dropoff coordinates, Manhattan distance
 - **Interaction terms**: e.g., `hour × passenger_count`
 
-Before applying PCA, we standardized the features and removed outliers (e.g., rides with zero coordinates or unreasonable fare amounts).
+Before applying PCA, I standardized the features and removed outliers (e.g., rides with zero coordinates or unreasonable fare amounts).
 
 ---
 
 ## Visualization of PCA Projection
 
-After applying PCA, we projected the standardized features into 2D space using the top two principal components. The resulting scatterplot reveals clusters and patterns in Uber pickup behavior, such as groups of similar ride types or time-based patterns.
+After applying PCA, I projected the standardized features into 2D space using the top two principal components. The resulting scatterplot reveals clusters and patterns in Uber pickup behavior, such as groups of similar ride types or time-based patterns.
 
 ![principal_component_analysis_2](https://github.com/user-attachments/assets/82fe6d1a-00e4-453c-8ba5-618bbef5fa34)
 
