@@ -74,7 +74,7 @@ It is especially useful for verifying that the models are importable and functio
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/INDE577_ML_Rice_2025.git
+    git clone https://github.com/alicewang777/INDE577_ML_Rice_2025.git
     cd INDE577_ML_Rice_2025
     ```
 
