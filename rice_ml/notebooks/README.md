@@ -2,6 +2,16 @@
 
 A lightweight custom machine learning library for educational use, built from scratch using NumPy. This project is part of the final project for INDE577/CMOR438 at Rice University.
 
+## Notebook: `rice_ml_package.ipynb`
+
+This notebook demonstrates how to:
+
+- Build the `rice_ml` package dynamically in Google Colab
+- Test model training and prediction on a small dataset
+- Set up the package for reuse in other notebooks
+
+It is especially useful for verifying that the models are importable and functional across files, simulating real package usage.
+
 ---
 
 ## Package Overview
@@ -31,15 +41,6 @@ rice_ml/
 notebooks/
 └── rice_ml_package.ipynb    # Colab notebook for testing and developing models
 
-## Notebook: `rice_ml_package.ipynb`
 
-This notebook demonstrates how to:
-
-- Build the `rice_ml` package dynamically in Google Colab
-- Implement the `LogisticRegression` class using NumPy
-- Test model training and prediction on a small synthetic dataset
-- Set up the package for reuse in other notebooks
-
-It is especially useful for verifying that the models are importable and functional across files, simulating real package usage.
 
 ---
