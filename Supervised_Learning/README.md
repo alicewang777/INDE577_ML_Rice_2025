@@ -55,11 +55,10 @@ Supervised learning involves training a model using labeled data, where the goal
 
 1. `git clone https://github.com/alicewang777/INDE577_ML_Rice_2025.git`  
 2. `cd INDE577_ML_Rice_2025`  
-3. Install Python ≥ 3.10 and run:
+3. Install Python and run:
 
    ```bash
    pip install -r requirements.txt   # mostly numpy, pandas, matplotlib
-   export PYTHONPATH=$PYTHONPATH:$(pwd)
    ````
 
 4. Open the notebook inside any sub‑folder, run all cells, and compare the printed metrics with those reported in its local `README.md`.
