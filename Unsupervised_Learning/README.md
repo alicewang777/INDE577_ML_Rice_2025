@@ -69,7 +69,7 @@ The notebook visualises the trade‑off between compression ratio and perceptual
 * **Feature scaling and parameter selection** K‑Means requires a well‑chosen *k*; DBSCAN is sensitive to `eps`. Both notebooks therefore include systematic heuristics (elbow, silhouette, k‑distance) instead of arbitrary defaults.  
 * **Heterogeneous density** In mixed urban data, centroid‑based methods may split dense downtown traffic but smear sparsely populated zones. DBSCAN mitigates this by modelling density directly, yet demands careful tuning to avoid over‑fragmentation.  
 * **Dimensionality versus interpretability** PCA confirms that most behavioural variance lies on two axes, justifying 2‑D visualisations, but interpreting rotated components still needs inspection of the loading matrix.  
-* **SVD rank choice** Image quality improves rapidly up to about *k* = 100; beyond that, gains are marginal. The notebook therefore plots PSNR against file size to guide principled rank selection.
+* **SVD rank choice** Image quality improves rapidly up to about *k* = 100; beyond that, gains are marginal.
 
 ---
 
