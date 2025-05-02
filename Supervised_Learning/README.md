@@ -44,8 +44,8 @@ Supervised learning involves training a model using labeled data, where the goal
 ## Challenges & lessons learned
 
 * **From‑scratch math.** Implementing gradient updates, impurity calculations, and back‑prop without libraries surfaced many edge‑cases (division‑by‑zero, numerical overflow).  
-* **Imbalanced labels.** Only ~30 % of trips were *high‑fare*; we experimented with class‑weights and stratified sampling.  
-* **Computation cost.** KNN’s naïve search scales O($n^2$). We mitigated this with `numpy` vectorisation and down‑sampling.  
+* **Imbalanced labels.** Only ~30 % of trips were *high‑fare*; I experimented with class‑weights and stratified sampling.  
+* **Computation cost.** KNN’s naïve search scales O($n^2$). I mitigated this with `numpy` vectorisation and down‑sampling.  
 * **Over‑ & under‑fitting.** Decision trees required careful pre‑pruning; neural networks needed early‑stopping based on validation loss.  
 * **Ensembling trade‑offs.** Boosting improved accuracy but was sensitive to noisy labels; random forests were more robust but less interpretable.
 
