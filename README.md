@@ -58,7 +58,7 @@ INDE577_ML_Rice_2025/
 | Dataset | Purpose | Source |
 |---------|---------|--------|
 | **NYC Uber Trips** | Regression & classification tasks (fare prediction, demand hotspots) | TLC public data on Kaggle |
-| **Cat Image (PNG)** | Demonstrates lossy image compression with SVD | Public‑domain sample image |
+| **Cat Image** | Demonstrates lossy image compression with SVD | Public‑domain sample image |
 
 *All datasets are loaded or downloaded automatically inside the notebooks; no manual steps necessary.*
 
