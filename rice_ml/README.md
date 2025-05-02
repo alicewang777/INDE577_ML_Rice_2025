@@ -88,19 +88,4 @@ It is especially useful for verifying that the models are importable and functio
       from rice_ml.logistic_regression import LogisticRegression
       ```
 
----
-
-## Testing and Validation
-
-The notebook includes toy data to verify the correctness of the logistic regression model. Future versions will include:
-
-- Unit tests using `pytest`
-- Model performance metrics on real-world datasets (e.g., Uber dataset)
-
----
-
-## License & Attribution
-
-This is a student project for educational purposes. Feel free to fork, star, or contribute!
-
 
