@@ -23,7 +23,7 @@ This repository is the deliverable for my INDE 577 final project.  It showcase
 
 | Paradigm | Directory | Algorithms Implemented | Notebook Examples |
 |----------|-----------|------------------------|-------------------|
-| **Supervised Learning** | `Supervised_Learning` | Perceptron • Linear & Logistic Regression • Neural Networks • K‑Nearest Neighbors • Decision / Regression Trees • Random Forests • Gradient Boosting | End‑to‑end Uber‑trip prediction & classification notebooks for each model |
+| **Supervised Learning** | `Supervised_Learning` | Perceptron • Linear & Logistic Regression • Neural Networks • K‑Nearest Neighbors • Decision / Regression Trees • Random Forests • Boosting | End‑to‑end Uber‑trip prediction & classification notebooks for each model |
 | **Unsupervised Learning** | `Unsupervised_Learning` | K‑Means • DBSCAN • Principal Component Analysis • SVD‑based Image Compression | Uber GPS clustering, PCA on high‑dimensional features, and cat‑image compression demo |
 
 A lightweight **Python package**, **`rice_ml`**, wraps every algorithm in a reusable API so the exact same code can be imported in any notebook or downstream project.
