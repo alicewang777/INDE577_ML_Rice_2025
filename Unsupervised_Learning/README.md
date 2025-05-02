@@ -1,4 +1,4 @@
-# Unsupervised Learning
+# Unsupervised Learning Algorithms
 
 This directory documents four classical unsupervised‑learning techniques implemented with the `rice_ml` package.  
 The first three notebooks analyse a 5 000‑row sample of the public Uber pick‑up dataset; the fourth compresses a high‑resolution cat photograph.
